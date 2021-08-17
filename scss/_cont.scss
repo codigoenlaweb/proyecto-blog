@@ -1,0 +1,128 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    .main_section{
+        width: 96%;
+        min-height: 500px;
+        height: auto;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #ccc;
+        padding-bottom: 26px;
+        .main_section-h1{
+            margin: 16px 0px 14px 12px;
+            font-family: alveca;
+            font-size: 26px;
+        }
+        .main_section-article{
+            width: 94%;
+            margin: 0px auto;
+            margin-bottom: 22px;
+            .main_article-p-i{
+                margin-right: 6px;
+                margin-left: 2px;
+                font-size: 18px;
+            }
+            .main_article-p-h2{
+                display: inline-block;
+                font-size: 18px;
+                color: #3086D0;
+                transition: 0.3s all;
+            }
+            .main_article-p-h2:hover{
+                transform: scaleY(1.4) translateY(-5px);
+            }
+            .main_article-p-a{
+                color: #338edf;
+                transition: 0.3s all;
+            }
+            .main_article-p-span{
+                display: block;
+                color: gray;
+            }
+            
+        }
+        .main_section-boton{
+            height: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            .main_section-boton-a{
+                background: #156785;
+                border: 1px solid #156785;
+                border-radius: 1px;
+                text-align: center;
+                width: 190px;
+                height: 28px;
+                color:white;
+                line-height: 28px;
+            }
+            .main_section-boton-a__modif{
+                margin-right: 54px;
+            }
+        }
+        
+        
+        
+        /*crear categoria.php*/
+
+        .main_section-article-c{
+            text-align: center;
+            margin-top: 45px;
+            .categoria_article-form-text{
+                width: 40%;
+                height: 20px;
+                margin-bottom: 18px;
+            }
+            .select_entrada{
+                margin-bottom: 16px;
+                margin-top: 18px;
+                background: #156785;
+                border: 1px solid #156785;
+                color:white;
+                text-align: center;
+                padding: 5px 14px;
+            }
+            .textarea{
+                min-height: 100px;
+                height: auto;
+                width: 70%;
+                height: auto;
+            }
+            .categoria_article-form-boton{
+                margin-top: 14px;
+                margin-bottom: 24px;
+                background: #156785;
+                border: 1px solid #156785;
+                color:white;
+                text-align: center;
+                padding: 5px;
+                width: 30%;
+            }
+            .alerta{
+                max-width: 90%;
+                padding: 5px 0px 5px 0px;
+                font-size: 14px;
+                color: white;
+                background: red;
+                box-shadow: 0px 1px 3px #ccc;
+                margin: 0px auto;
+                margin-bottom: 18px;
+                border-radius: 2px;
+            }
+            
+        }
+        
+    }
+
+}
+
+.alerta_ircategoria{
+    text-align: center;
+    margin: 0px auto;
+    width: 50%;
+    margin-top: 50px;
+}

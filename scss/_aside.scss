@@ -1,0 +1,152 @@
+.aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 98%;
+    .aside_usuario{
+        background-color: white;
+        width: 96%;
+        box-shadow: 0px 0px 1px rgba(0,0,0,0.3), 0px 3px 7px rgba(0,0,0,0.3), 0px 0px 1px #FFFFFF inset, 0px -3px 2px rgba(0,0,0,0.25) inset; 
+        margin-top: 15px;
+        .aside_usuario-contenedor{
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+            text-align: center;
+            width: 90%;
+            .usuario_h3{
+                font-size: 20px;
+                margin-top: 15px;
+            }
+            .usuario_h2{
+                margin-top: 5px;
+                font-size: 18px;
+                color: #3086D0;
+            }
+            .usuario_boton{
+                margin-top: 12px;
+                background: #156785;
+                border: 1px solid #156785;
+                color:white;
+                text-align: center;
+                padding: 5px;
+                width: 75%;
+                transition: 0.3s all;
+            }
+            .usuario_boton:hover{
+                transform: scale(1.1);
+                background-color: #1b7a9c;;
+            }
+        }
+        
+    }
+    .aside_entrar{
+        background-color: white;
+        width: 96%;
+        box-shadow: 0px 0px 1px rgba(0,0,0,0.3), 0px 3px 7px rgba(0,0,0,0.3), 0px 0px 1px #FFFFFF inset, 0px -3px 2px rgba(0,0,0,0.25) inset; 
+        margin-bottom: 30px;
+        margin-top: 25px;
+        .entrar_h3{
+            margin: 10px 0px 4px 3%;
+            font-weight: 700;
+        }
+        .entrar_contenedor{
+            margin-left: 3%;
+            .entrar_contenedor-form{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .entrar_contenedor-form-l{
+                    margin-top: 10px;
+                }
+                input[type=email],
+                input[type=password]{
+                    margin-top: 1px;
+                    width: 93.5%;
+                    height: 18px;
+                }
+                input[type=submit]{
+                    margin-top: 12px;
+                    margin-bottom: 16px;
+                    background: #156785;
+                    border: 1px solid #156785;
+                    color:white;
+                    text-align: center;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+
+    .buscador{
+        margin-left: 2.1%;
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .aside_registrarse{
+        background-color: white;
+        width: 96%;
+        box-shadow: 0px 0px 1px rgba(0,0,0,0.3), 0px 3px 7px rgba(0,0,0,0.3), 0px 0px 1px #FFFFFF inset, 0px -3px 2px rgba(0,0,0,0.25) inset; 
+        margin-top: 10px;
+        .registrarse_h3{
+            margin: 10px 0px 4px 3%;
+            font-weight: 700;
+        }
+        .registrarse_contenedor{
+            margin-left: 3%;
+            .registrarse_contenedor-form{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .registrarse_contenedor-form-l{
+                    margin-top: 10px;
+                }
+                input[type=email],
+                input[type=password],
+                input[type=text]{
+                    margin-top: 1px;
+                    width: 93.5%;
+                    height: 18px;
+                }
+                input[type=submit]{
+                    margin-top: 12px;
+                    margin-bottom: 16px;
+                    background: #156785;
+                    border: 1px solid #156785;
+                    color:white;
+                    text-align: center;
+                    padding: 5px;
+                }
+            }
+        }
+
+    }
+}
+
+.alerta{
+    max-width: 90%;
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    background: red;
+    box-shadow: 0px 1px 3px #ccc;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+.alerta_completado{
+    background-color: green;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.alerta_error{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+

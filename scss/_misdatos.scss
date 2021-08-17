@@ -1,0 +1,47 @@
+.main_section-article-misdatos{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    #form_h2-misdatos{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .form_misdatos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 90%;
+        .label_form-misdatos{
+            margin-top: 5px;
+        }
+        input[type=email],
+        input[type=password],
+        input[type=text]{
+            margin-top: 2px;
+            width: 90%;
+            max-width: 260px;
+            height: 18px;
+        }
+        input[type=submit]{
+            margin-top: 16px;
+            margin-bottom: 24px;
+            background: #156785;
+            border: 1px solid #156785;
+            color:white;
+            text-align: center;
+            padding: 6px;
+            transition: 0.4s all;
+        }
+        input[type=submit]:hover{
+            border-radius: 6px;
+            transform: scale(1.1);
+        }
+        .error-misdatos{
+            margin-top: 10px;
+        }
+    }
+}
